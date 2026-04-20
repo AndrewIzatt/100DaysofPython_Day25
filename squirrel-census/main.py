@@ -17,7 +17,7 @@ import pandas
 # print(data[data.temp == data.temp.max()])
 
 # ************ Squirrel Census **************
-data = pandas.read_csv("2018_squirrel_census.csv")
+data = pandas.read_csv("./2018_squirrel_census.csv")
 
 # fur_colors = data.groupby("Primary Fur Color").size()
 gray_squirrels_count = len(data[data["Primary Fur Color"] == "Gray"])
